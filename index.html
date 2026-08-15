@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmud – UI/UX Designer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-dark': '#0f2631',
+                        'brand-orange': '#F0593B',
+                        'brand-teal': '#28756d',
+                        'brand-yellow': '#F3C14F',
+                    },
+                    fontFamily: {
+                        'sans': ['"Plus Jakarta Sans"', 'sans-serif'],
+                        'cursive': ['Caveat', 'cursive'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+        
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .font-cursive { font-family: 'Caveat', cursive; }
+        html { scroll-behavior: smooth; }
+
+        @keyframes blink {
+            0%, 100% { border-color: transparent; }
+            50% { border-color: #28756d; }
+        }
+        .cursor-blink {
+            border-right: 3px solid #28756d;
+            animation: blink 1s step-end infinite;
+        }
+    </style>
+</head>
+<body class="bg-[#F8F7F2] text-gray-800 overflow-x-hidden">
+
+    <!-- All sections are loaded here -->
+    <div id="section-hero"></div>
+    <div id="section-services"></div>
+    <div id="section-experience"></div>
+    <div id="section-works"></div>
+    <div id="section-testimonials"></div>
+    <div id="section-contact"></div>
+
+    <!-- Scripts -->
+    <script src="js/sliders.js"></script>
+    <script src="js/typewriter.js"></script>
+    <script src="js/counters.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
