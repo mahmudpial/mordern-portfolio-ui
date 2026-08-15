@@ -1,4 +1,4 @@
-# Mahmud – Professional UI/UX Designer Portfolio
+# Professional UI/UX Design Portfolio
 
 A modern, highly interactive, and modular Single Page Application (SPA) portfolio website designed for a UI/UX Designer. Built with a focus on premium aesthetics, this portfolio features smooth animations, a dynamic component-loading architecture, and a clean, maintainable codebase.
 
